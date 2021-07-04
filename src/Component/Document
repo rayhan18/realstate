@@ -1,0 +1,8 @@
+use instraction
+npm install react-bootstrap bootstrap@4.6.0
+import 'bootstrap/dist/css/bootstrap.min.css';
+npm install -g sass
+
+demo link
+http://www.jenan.com.sa/Default.aspx
+http://preview.themeforest.net/item/evernest-real-estate-html-template/full_screen_preview/27642418?_ga=2.173021027.1714684018.1624527623-1364047746.1624527523
