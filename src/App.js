@@ -5,6 +5,7 @@ import NavigationBar from './Component/Navbar/NavigationBar';
 import HomeImage from './Component/HomeBennar/HomeImage';
 import Footer from './Component/Footer/Footer';
 import FeaturedProperties from './Component/FeaturedProperties/FeaturedProperties';
+import PopularPlace from './Component/PopularPlace/PopularPlace';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NavigationBar/>
        <HomeImage/>
       <FeaturedProperties/>
+      <PopularPlace/>
        <Footer/>
     </div>
   );

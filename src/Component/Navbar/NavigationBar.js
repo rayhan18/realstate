@@ -1,28 +1,37 @@
 import React, { Component,Fragment } from 'react'
 import {Container,Navbar,Nav} from 'react-bootstrap'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+ 
+import { faFacebook, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import logo from '../Images/GroupLogo.png'
 export default class NavigationBar extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true}>
+               <div>
                 <Navbar bg="dark" variant="dark">
-                    <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+                    <Navbar.Brand href="#home" style={{ marginLeft:'50px'}}>
+                        <FontAwesomeIcon className="iconStyle" icon={faFacebook}/>
+                        <FontAwesomeIcon className="iconStyle" icon={faTwitter}/>
+                        <FontAwesomeIcon className="iconStyle" icon={faLinkedinIn}/>
+                        <FontAwesomeIcon  className="iconStyle" icon={faYoutube}/>
+                        </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Navbar.Text>
-                        Signed in as: <a href="#login">Mark Otto</a>
+                        <Navbar.Text  style={{fontWeight: 900}} className="  text-white mr-5  "><FontAwesomeIcon  className="iconStyle" icon={faPhone}/>
+                        (074) 55 55 55 
                         </Navbar.Text>
                     </Navbar.Collapse>
                     </Navbar>
-                </Container>
+                    </div>
              {/* second nav */}
                 <Container fluid={true}>
                 <Navbar collapseOnSelect expand="lg" className=" bordeer-bottom">
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand href="#home"><img style={{width:'200px'}} src={logo} alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
+                        <Nav className="mr-auto ml-auto">
                         <Nav.Link href="#features"><strong>Home</strong></Nav.Link>
                         <Nav.Link href="#features"><strong>About Us</strong></Nav.Link>
                         <Nav.Link  href="#memes"><strong> Our Project</strong>  </Nav.Link>
