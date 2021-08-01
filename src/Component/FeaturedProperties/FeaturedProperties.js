@@ -6,14 +6,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //import {faFacebookSquare,}from '@fortawesome/free-brands-svg-icons'
 
 export default class FeaturedProperties extends Component {
-    //http://preview.themeforest.net/item/evernest-real-estate-html-template/full_screen_preview/27642418?_ga=2.173021027.1714684018.1624527623-1364047746.1624527523
+  
     render() {
         return (
             <Fragment>
-                <Container>
+                <Container className="slideInUp">
                     <div className="text-center mt-5 mb-4">
-                        <h2 className="display-3">Featured Properties</h2>
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                        <h4 className="display-4">{this.props.title}</h4>
+                        <h5>
+                            {this.props.subTitle}
+                        </h5>
                     </div>
                     <Row>
                         <Col xs={12} sm={12} md={4} lg={4} className="fuchearcart">
@@ -105,14 +107,7 @@ export default class FeaturedProperties extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <Container fluid={true} className="fucherbgimg">
-                    <div className="text-center mt-5  fuchearHeading">
-                        <h2 className=" display-3">Buy or sell your house</h2>
-                        <p>Donec placerat dolor id neque pretium placerat. Donec in facilisis risus. In sollicitudin magna luctus sem ultrices convallis. Sed quis ex vel tellus ullamcorper malesuada. Aenean facilisis ex dolor, id vehicula nisl consectetur dapibus. Phasellus mollis mauris semper placerat convallis. Morbi varius facilisis dignissim. Donec eu sollicitudin nunc. Aliquam in nisi id arcu gravida vehicula quis nec sapien. Fusce at dolor ex.</p>
-                        <Button variant="warning mr-3">Start Search Now</Button>
-                        <Button variant="warning">Brows Proparties</Button>
-                    </div>
-                </Container>
+                
             </Fragment>
         )
     }

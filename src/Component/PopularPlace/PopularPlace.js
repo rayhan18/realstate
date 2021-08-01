@@ -11,7 +11,7 @@ export default class PopularPlace extends Component {
     render() {
         return (
             <div>
-                <Container>
+                <Container className="slideInUp">
                     <div className="text-center p-3">
                     <h1> POPULAR PLACES</h1>
                     <p>Lorem ipsum dolor sit amet consectetur</p>

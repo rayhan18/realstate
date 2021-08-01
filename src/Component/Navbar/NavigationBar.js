@@ -6,11 +6,14 @@ import { faFacebook, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/fre
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import logo from '../Images/GroupLogo.png'
 export default class NavigationBar extends Component {
+   
+    
     render() {
+        
         return (
             <Fragment>
                <div>
-                <Navbar bg="dark" variant="dark">
+                <Navbar bg="dark" variant="dark"  >
                     <Navbar.Brand href="#home" style={{ marginLeft:'50px'}}>
                         <FontAwesomeIcon className="iconStyle" icon={faFacebook}/>
                         <FontAwesomeIcon className="iconStyle" icon={faTwitter}/>
@@ -27,8 +30,8 @@ export default class NavigationBar extends Component {
                     </div>
              {/* second nav */}
                 <Container fluid={true}>
-                <Navbar collapseOnSelect expand="lg" className=" bordeer-bottom">
-                    <Navbar.Brand href="#home"><img style={{width:'200px'}} src={logo} alt="logo"/></Navbar.Brand>
+                <Navbar collapseOnSelect  expand="lg" className=" bordeer-bottom" >
+                    <Navbar.Brand href="#home"><img style={{width:'100px'}} src={logo} alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto ml-auto">

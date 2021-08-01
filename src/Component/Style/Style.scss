@@ -1,3 +1,37 @@
+//----------
+ //animation
+//..........
+.slideInUp {
+	-webkit-animation-name: slideInUp;
+	animation-name: slideInUp;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideInUp {
+	0% {
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	visibility: visible;
+	}
+	100% {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	}
+	}
+	@keyframes slideInUp {
+	0% {
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	visibility: visible;
+	}
+	100% {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	}
+	} 
+
 
 body{
     margin: 0;
@@ -29,26 +63,32 @@ h1,h2,h3,h4,h5,h6{
 //home img style
  .topBennarimg{
     background-image:url('../Images/bannerimg.png') ;
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
+    background-size: 100% ;
+	padding: 50px;
+	
     }
-    .topBennarheding{
-        position: absolute;
-        top: 24%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 18px;
-    }
+    // .topBennarheding{
+    //     position: absolute;
+    //     top: 24%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    //     font-size: 18px;
+    // }
+	
 
     //fotter
     .fottercontain{
         background-color: #131212;
     }
  .socialLink{
-     font-size: 30px;
-     margin-right: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    color: #b65007eb;
+    border: 2px solid #d5760957;
+    border-radius: 50%;
+    padding: 10px;
  }
  
  .fotterLink :hover{
@@ -78,9 +118,10 @@ h1,h2,h3,h4,h5,h6{
      
 }
 .fuchearcart{
-	box-shadow: 1px 1px 29px 0px rgba(154,27,227,0.65);
--webkit-box-shadow: 1px 1px 29px 0px rgba(154,27,227,0.65);
--moz-box-shadow: 1px 1px 29px 0px rgba(154,27,227,0.65); 
+	
+	box-shadow: 1px 1px 29px 0px rgba(165, 163, 167, 0.65);
+-webkit-box-shadow: 1px 1px 29px 0px rgba(165, 162, 167, 0.65);
+-moz-box-shadow: 1px 1px 29px 0px rgba(173, 169, 175, 0.65); 
 }
 .img-hover-zoom--colorize img {
     transition: transform .5s, filter 1.5s ease-in-out;
@@ -284,4 +325,64 @@ figure.effect-layla:hover p,
 figure.effect-layla:hover img {
 	-webkit-transition-delay: 0.15s;
 	transition-delay: 0.15s;
+}
+
+///banner-2
+.backImg{
+	 background-image: url('../Images/pexels.jpg');
+	padding: 50px;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 235px;
+	background-size: cover;
+}
+.benner2Title{
+	font-weight: 900;
+    font-size: xxx-large;
+    color: #f5f6fa;
+	background: #a5a51561;
+    text-align: center;
+}
+.banner2-p{
+	color: #fafafa;
+    letter-spacing: 2px;
+    font-size: 20px;
+	background: #a5a51561;
+    padding: 7px;
+}
+.banner2-btn{
+	background: #a5a51561;
+    padding: 20px;
+}
+//agent 
+.cartimg{
+	width: 335px;
+    height: 415px;
+    margin-left: 34px;
+    margin-top: -30px;
+}
+//sells and bay
+svg {
+	font-family: 'Russo One', sans-serif;
+	// position: absolute; 
+	width: 100%; height: 100%;
+}
+svg text {
+	text-transform: uppercase;
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #1f0566;
+	font-size: 80px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(14, 4, 75, 0); stroke: rgb(10, 3, 80);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(10, 5, 85, 0); stroke: rgb(6, 5, 73); }
+	80%  {fill: rgba(6, 5, 83, 0); stroke: rgb(6, 10, 80); stroke-width: 3; }
+	100% {
+		fill: rgb(3, 4, 75); stroke: rgba(15, 4, 78, 0); 
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
 }
