@@ -31,12 +31,12 @@ export default class NavigationBar extends Component {
              {/* second nav */}
                 <Container fluid={true}>
                 <Navbar collapseOnSelect  expand="lg" className=" bordeer-bottom" >
-                    <Navbar.Brand href="#home"><img style={{width:'100px'}} src={logo} alt="logo"/></Navbar.Brand>
+                    <Navbar.Brand href="/"><img style={{width:'100px'}} src={logo} alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto ml-auto">
-                        <Nav.Link href="#features"><strong>Home</strong></Nav.Link>
-                        <Nav.Link href="#features"><strong>About Us</strong></Nav.Link>
+                        <Nav.Link href="/"><strong>Home</strong></Nav.Link>
+                        <Nav.Link href="/aboutus"><strong>About Us</strong></Nav.Link>
                         <Nav.Link  href="#memes"><strong> Our Project</strong>  </Nav.Link>
                         <Nav.Link  href="#memes"> <strong>Media center</strong>  </Nav.Link>
                         <Nav.Link  href="#memes"> <strong>Coustomer Service</strong>  </Nav.Link>
