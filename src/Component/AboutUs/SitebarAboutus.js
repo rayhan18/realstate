@@ -33,10 +33,10 @@ export default class SitebarAboutus extends Component {
                           <Link to= "#" onClick={this.colorset} > <h5 className="mb-3 p-2 aboutItem "><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span>
                              Brif's</h5></Link>
                              <Link onClick={this.colorset} to="/charmanmsg"> <h5 className="mb-3  p-2 aboutItem"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Chairman’s Message</h5></Link>
-                             <a href="/">  <h5 className="mb-3  p-2 aboutItem"> <span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> CEO’s Message</h5></a>
-                             <a href="/"> <h5 className="mb-3  p-2 aboutItem"> <span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Objectives</h5></a>
-                             <a href="/"> <h5 className="mb-3  p-2 aboutItem"> <span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Board of Directors</h5></a>
-                             <a href="/"> <h5 className="mb-3  p-2 aboutItem"> <span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Organizational Structure</h5></a>
+                             <Link to="/ceomessage">  <h5 className="mb-3  p-2 aboutItem"> <span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> CEO’s Message</h5></Link>
+                             <Link to="/proparty"> <h5 className="mb-3  p-2 aboutItem"> <span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Proparty List</h5></Link>
+                             <Link to="/"> <h5 className="mb-3  p-2 aboutItem"> <span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Board of Directors</h5></Link>
+                             <Link to="/"> <h5 className="mb-3  p-2 aboutItem"> <span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Organizational Structure</h5></Link>
                             
                         </div>
             </div>
