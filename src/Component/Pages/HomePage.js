@@ -23,7 +23,7 @@ class Homepage extends Component{
     <BayOrSell/>
     <FeaturedProperties title="Properties For Rent" subTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
       <Banner2/>
-      <Agent/>
+      <Agent title="Meet Our Agents" subTitle="Lorem ipsum dolor sit amet consectetur"/>
      <Footer/>
   </div>
     )

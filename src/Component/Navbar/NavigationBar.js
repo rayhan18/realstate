@@ -37,7 +37,7 @@ export default class NavigationBar extends Component {
                         <Nav className="mr-auto ml-auto">
                         <Nav.Link href="/"><strong>Home</strong></Nav.Link>
                         <Nav.Link href="/aboutus"><strong>About Us</strong></Nav.Link>
-                        <Nav.Link  href="#memes"><strong> Our Project</strong>  </Nav.Link>
+                        <Nav.Link  href="/project"><strong> Our Project</strong>  </Nav.Link>
                         <Nav.Link  href="#memes"> <strong>Media center</strong>  </Nav.Link>
                         <Nav.Link  href="#memes"> <strong>Coustomer Service</strong>  </Nav.Link>
                         

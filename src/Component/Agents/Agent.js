@@ -24,8 +24,8 @@ export default class Agent extends Component {
 
             <Container className="mt-5 mb-5 slideInUp">
                 <div className="text-center">
-                    <h2>Meet Our Agents</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <h2 className="bg-warning p-2 ">{this.props.title}</h2>
+                    <p>{this.props.subTitle}</p>
                 </div>
                 
                 <Row className="mt-5">
