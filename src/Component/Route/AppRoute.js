@@ -21,6 +21,7 @@ export default class AppRoute extends Component {
                   <Route path="/proparty" component={PropartyPage }/> 
                   <Route path="/bordofdirector" component={BordofDirectorPage }/> 
                   <Route path="/project" component={ProjectsPage }/> 
+                 
                </Switch>
                
              
