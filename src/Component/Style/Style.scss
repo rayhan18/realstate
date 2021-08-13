@@ -611,6 +611,48 @@ svg text {
 	top: -10px;
 	left: -10px;
   } 
-
+  //apartment
+  .apartmentrow:hover{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+  .pulsate-fwd {
+	-webkit-animation: pulsate-fwd 3s ease-in-out 5s infinite both;
+	        animation: pulsate-fwd 3s ease-in-out 5s infinite both;
+}
+@-webkit-keyframes pulsate-fwd {
+	0% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	}
+	50% {
+	  -webkit-transform: scale(1.1);
+			  transform: scale(1.1);
+			  color:'green';
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+			  color:'green';
+	}
+  }
+  @keyframes pulsate-fwd {
+	0% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	}
+	50% {
+	  -webkit-transform: scale(1.1);
+			  transform: scale(1.1);
+			  color:'green';
+	}
+	100% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+			  color:'green';
+	}
+  }
+  
   
   
