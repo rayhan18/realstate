@@ -7,7 +7,11 @@ import CeoMessagePage from '../Pages/CeoMessagePage';
 import PropartyPage from '../Pages/PropartyPage';
 import BordofDirectorPage from '../Pages/BordofDirectorPage';
 import ProjectsPage from '../Pages/ProjectsPage';
-
+import FamilyHousePage from '../Pages/FamilyHousePage';
+import MordanvillaPage from '../Pages/MordanvillaPage'
+import VillaPage from '../Pages/VillaPage'
+import TownHousePage from '../Pages/TownHousePage';
+import OfficePage from '../Pages/OfficePage';
 export default class AppRoute extends Component {
     render() {
         return (
@@ -20,8 +24,12 @@ export default class AppRoute extends Component {
                   <Route path="/ceomessage" component={CeoMessagePage }/> 
                   <Route path="/proparty" component={PropartyPage }/> 
                   <Route path="/bordofdirector" component={BordofDirectorPage }/> 
-                  <Route path="/project" component={ProjectsPage }/> 
-                 
+                  <Route path="/apartment" component={ProjectsPage }/> 
+                  <Route path="/familyhouse" component={FamilyHousePage }/>
+                  <Route path="/mordanvilla" component={MordanvillaPage}/>
+                  <Route path="/villa" component={VillaPage}/>
+                  <Route path="/townhouse" component={TownHousePage}/>
+                  <Route path="/office" component={OfficePage}/>
                </Switch>
                
              

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Dropdown, Container, Button,Row,Col} from 'react-bootstrap'
+import { Dropdown, Container,Row,Col} from 'react-bootstrap'
 import pro from '../Images/living5.jpg'
 import pro2 from '../Images/living4.jpg'
 import pro3 from '../Images/living3.jpg'

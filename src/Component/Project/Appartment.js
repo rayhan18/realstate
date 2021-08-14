@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Container ,Row,Col,Button} from 'react-bootstrap'
-import ProjectSitebar from './ProjectSitebar'
+import { Container ,Row,Col,Button} from 'react-bootstrap' 
 import pro from '../Images/living5.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
  import { faHeart, faPhone, faComment} from '@fortawesome/free-solid-svg-icons'
@@ -17,12 +16,19 @@ export default class Appartment extends Component {
         return (
             <div>
              <Container className="mt-5"> 
-             <h3 className="text-center bg-info p-2">Apartment</h3>
+             <h3 className="text-center bg-info p-2">{this.props.title}</h3>
                 <Row >
                     <Col sm={12} md={12} lg={12} className="border mb-3 apartmentrow">
                     <ul class="list-unstyled">
-                            <li className="media">
-                            <img style={imgStyle} src={pro} alt="project" />
+                            <li className="media ">
+                                <div className="">
+                                  
+                                <img className="" style={imgStyle } src={pro} alt="project" />
+                                <div>
+                                <Button>View Details</Button>
+                                </div>
+                                </div>
+                           
                                 <div className="media-body ml-3">
                                 <h5 className="mt-3 mb-1">Most Popular Apartments in Al Riyadh </h5><br/><br/><br/>
                                 <p className=" text-secondary mb-0">Most Popular Apartments</p>

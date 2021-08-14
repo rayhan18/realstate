@@ -1,7 +1,7 @@
 import React, { Component,Fragment } from 'react'
 import {Container,Navbar,Nav} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
- 
+ import { Link } from 'react-router-dom'
 import { faFacebook, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import logo from '../Images/GroupLogo.png'
@@ -35,13 +35,13 @@ export default class NavigationBar extends Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto ml-auto">
-                        <Nav.Link href="/"><strong>Home</strong></Nav.Link>
-                        <Nav.Link href="/aboutus"><strong>About Us</strong></Nav.Link>
-                        <Nav.Link  href="/project"><strong> Our Project</strong>  </Nav.Link>
-                        <Nav.Link  href="#memes"> <strong>Media center</strong>  </Nav.Link>
-                        <Nav.Link  href="#memes"> <strong>Coustomer Service</strong>  </Nav.Link>
+                        <Nav.Link ><strong><Link to="/">Home</Link></strong></Nav.Link>
+                        <Nav.Link ><strong><Link to="/aboutus">About Us</Link></strong></Nav.Link>
+                        <Nav.Link  ><strong><Link to="/apartment"> Our Project</Link></strong>  </Nav.Link>
+                        <Nav.Link  > <strong><Link to="/">Media center</Link></strong>  </Nav.Link>
+                        <Nav.Link  > <strong><Link to="/login">Login</Link></strong>  </Nav.Link>
                         
-                        
+                        <Nav.Link  > <strong><Link to="/contactus">Contact Us</Link></strong>  </Nav.Link>
                         </Nav>
                         {/* <Nav>
                         <Nav.Link href="#deets">Home</Nav.Link>
