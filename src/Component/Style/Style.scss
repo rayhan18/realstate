@@ -653,6 +653,21 @@ svg text {
 			  color:'green';
 	}
   }
-  
-  
+  //contact page
+  .contact{
+	position: relative;
+	text-align: center;
+	
+  }
+  .contact-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: xxx-large;
+    font-weight: 900;
+	color: antiquewhite;
+    background: #2329e240;
+    padding: 10px 20px 0 20px;
+  }
   

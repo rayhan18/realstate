@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container,Row,Col,Form ,Button} from 'react-bootstrap'
 import pro from '../Images/unnamed.jpg'
-export default class Contactus extends Component {
+export default class Login extends Component {
     render() {
         const imgstyle={
             width: '100%',

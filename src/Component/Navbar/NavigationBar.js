@@ -38,18 +38,16 @@ export default class NavigationBar extends Component {
                         <Nav.Link ><strong><Link to="/">Home</Link></strong></Nav.Link>
                         <Nav.Link ><strong><Link to="/aboutus">About Us</Link></strong></Nav.Link>
                         <Nav.Link  ><strong><Link to="/apartment"> Our Project</Link></strong>  </Nav.Link>
-                        <Nav.Link  > <strong><Link to="/">Media center</Link></strong>  </Nav.Link>
-                        <Nav.Link  > <strong><Link to="/login">Login</Link></strong>  </Nav.Link>
+                        {/* <Nav.Link  > <strong><Link to="/">Media center</Link></strong>  </Nav.Link> */}
+                        
                         
                         <Nav.Link  > <strong><Link to="/contactus">Contact Us</Link></strong>  </Nav.Link>
                         </Nav>
-                        {/* <Nav>
-                        <Nav.Link href="#deets">Home</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes"> Our Project  </Nav.Link>
-                        <Nav.Link eventKey={3} href="#memes"> Media center  </Nav.Link>
-                        <Nav.Link eventKey={4} href="#memes"> Coustomer Service  </Nav.Link>
+                        <Nav>
+                        <Nav.Link  > <strong><Link to="/login">Login</Link></strong>  </Nav.Link>
                         
-                        </Nav> */}
+                        
+                        </Nav>
                     </Navbar.Collapse>
                     </Navbar>
                 </Container>

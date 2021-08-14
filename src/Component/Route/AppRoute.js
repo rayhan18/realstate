@@ -12,6 +12,8 @@ import MordanvillaPage from '../Pages/MordanvillaPage'
 import VillaPage from '../Pages/VillaPage'
 import TownHousePage from '../Pages/TownHousePage';
 import OfficePage from '../Pages/OfficePage';
+
+import ContactusPage from '../Pages/ContactusPage';
 export default class AppRoute extends Component {
     render() {
         return (
@@ -30,6 +32,7 @@ export default class AppRoute extends Component {
                   <Route path="/villa" component={VillaPage}/>
                   <Route path="/townhouse" component={TownHousePage}/>
                   <Route path="/office" component={OfficePage}/>
+                  <Route path="/contactus" component={ContactusPage}/>
                </Switch>
                
              
