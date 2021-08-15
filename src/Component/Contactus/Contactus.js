@@ -1,8 +1,20 @@
 import React, { Component } from 'react'
 import { Container,Row,Col,Form ,Button} from 'react-bootstrap'
 import pro from '../Images/unnamed.jpg'
+import GoogleMapReact from 'google-map-react';
+// https://www.npmjs.com/package/google-map-react
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 export default class Contactus extends Component {
+
+    static defaultProps = {
+        center: {
+          lat: 59.95,
+          lng: 30.33
+        },
+        zoom: 11
+      };
     render() {
+        
         const imgstyle={
             width: '100%',
             height:' 200px'
@@ -17,10 +29,11 @@ export default class Contactus extends Component {
                     </div>
                  
                 </Container>
-                <Container className="mt-5 mb-5">
+                <Container className="mt-5 mb-5 ">
 
                     <Row>
-                        <Col sm={12} md={8} lg={8}>
+                        <Col style={{background:' #fe7b1373',
+                                  padding: '20px'}} sm={12} md={8} lg={8}>
                            <Form>
                            <Row className="mb-3">
                            <Form.Group as={Col} controlId="formGridName">
@@ -47,7 +60,19 @@ export default class Contactus extends Component {
                            </Form>
                         </Col>
                         <Col sm={12} md={4} lg={4}>
-                        
+                        <div style={{ height: '50vh', width: '50%' }}>
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: "https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap" }}
+          defaultCenter={this.props.center}
+          defaultZoom={this.props.zoom}
+        >
+          <AnyReactComponent
+            lat={59.955413}
+            lng={30.337844}
+            text="My Marker"
+          />
+        </GoogleMapReact>
+      </div>
                         </Col>
                     </Row>
                 

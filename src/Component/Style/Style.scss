@@ -41,7 +41,7 @@ a{
 	text-decoration: none;
 }
 a:hover{
-    color: tomato;
+    color: #040464;
     text-decoration: none;
      
 }
@@ -95,6 +95,11 @@ h1,h2,h3,h4,h5,h6{
  
  .fotterLink :hover{
    color: tomato;
+ }
+ .qlink:hover {
+   margin-left: 5px;
+  
+   
  }
  // futher cart
  .apart {
@@ -507,37 +512,6 @@ svg text {
 			  transform-origin: 100% 0%;
 	}
   }
-  //propartice
-//   .css-selector {
-//     background: linear-gradient(270deg, #8be8d0, #e7f987);
-//     background-size: 400% 400%;
-
-//     -webkit-animation: AnimationName 30s ease infinite;
-//     -moz-animation: AnimationName 30s ease infinite;
-//     -o-animation: AnimationName 30s ease infinite;
-//     animation: AnimationName 30s ease infinite;
-// }
-
-// @-webkit-keyframes AnimationName {
-//     0%{background-position:0% 50%}
-//     50%{background-position:100% 50%}
-//     100%{background-position:0% 50%}
-// }
-// @-moz-keyframes AnimationName {
-//     0%{background-position:0% 50%}
-//     50%{background-position:100% 50%}
-//     100%{background-position:0% 50%}
-// }
-// @-o-keyframes AnimationName {
-//     0%{background-position:0% 50%}
-//     50%{background-position:100% 50%}
-//     100%{background-position:0% 50%}
-// }
-// @keyframes AnimationName {
-//     0%{background-position:0% 50%}
-//     50%{background-position:100% 50%}
-//     100%{background-position:0% 50%}
-// }
   
   //Projects 
   .projectimg{
@@ -670,4 +644,5 @@ svg text {
     background: #2329e240;
     padding: 10px 20px 0 20px;
   }
+  
   

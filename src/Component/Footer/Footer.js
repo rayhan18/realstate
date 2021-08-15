@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationArrow ,faEnvelope,faPhoneSquare,faAngleRight} from '@fortawesome/free-solid-svg-icons'
 import {faFacebookSquare,faTwitter,faInstagramSquare, faYoutube}from '@fortawesome/free-brands-svg-icons'
 import '../Style/Style.scss'
+import {Link} from 'react-router-dom'
 export default class Footer extends Component {
     render() {
         return (
@@ -19,16 +20,16 @@ export default class Footer extends Component {
                              adipiscing elit. Aenean urna magna,
                               mattis at ullamcorper in, pharetra in lorem.
                                Etiam mollis.</p>
-                               <Button variant="warning">READ MORE</Button>{' '}
+                               <Button variant="warning"><Link to="/aboutus">READ MORE</Link></Button>{' '}
                         </Col>
                         <Col xs={12} sm={12} md={2}lg={2}>
                         <div>
                             <h3 className="text-white border-bottom">Quick Links</h3>
-                           <p ><a className="text-white " href="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span>Home </a></p> 
-                           <p><a className="text-white" href="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Propartice</a></p> 
-                           <p><a className="text-white" href="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span>Agent</a></p> 
-                           <p><a className="text-white"href="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Block</a></p> 
-                           <p><a className="text-white" href="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Contact Us</a></p> 
+                           <p className="" ><Link className="text-white qlink" to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Home </Link></p> 
+                           <p><Link className="text-white qlink" to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Propartice</Link></p> 
+                           <p><Link className="text-white qlink" to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Agent</Link></p> 
+                           <p><Link className="text-white qlink"  to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Block</Link></p> 
+                           <p><Link className="text-white qlink" to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Contact Us</Link></p> 
                         </div>
                          
                         </Col>
@@ -70,10 +71,10 @@ export default class Footer extends Component {
                            <p className="text-white"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faEnvelope}/></span> info@reales.com</p> 
                            <p className="text-white"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faPhoneSquare}/></span> +0555555555</p> 
                              {/* <p className="text-white"><span className="socialLink"> */}
-                              <a href="/" className="socialLink"> <FontAwesomeIcon icon={faFacebookSquare}/></a>
-                              <a href="/" className="socialLink"> <FontAwesomeIcon icon={faTwitter}/></a>
-                              <a href ="/" className="socialLink"> <FontAwesomeIcon icon={faInstagramSquare}/></a>
-                              <a href ="/" className="socialLink"> <FontAwesomeIcon icon={faYoutube}/></a>
+                              <Link to="/" className="socialLink"> <FontAwesomeIcon icon={faFacebookSquare}/></Link>
+                              <Link to="/" className="socialLink"> <FontAwesomeIcon icon={faTwitter}/></Link>
+                              <Link to ="/" className="socialLink"> <FontAwesomeIcon icon={faInstagramSquare}/></Link>
+                              <Link to ="/" className="socialLink"> <FontAwesomeIcon icon={faYoutube}/></Link>
                                {/* </span> */}
                            
                            {/* </p> */}
