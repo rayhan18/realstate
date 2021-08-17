@@ -21,13 +21,12 @@ export default class Appartment extends Component {
                     <Col sm={12} md={12} lg={12} className="border mb-3 apartmentrow">
                     <ul class="list-unstyled">
                             <li className="media ">
-                                <div className="">
-                                  
+                              
+                                  <Link to="/projectdetails">
                                 <img className="" style={imgStyle } src={pro} alt="project" />
-                                <div>
-                                <Button>View Details</Button>
-                                </div>
-                                </div>
+                                </Link>
+                               
+                               
                            
                                 <div className="media-body ml-3">
                                 <h5 className="mt-3 mb-1">Most Popular Apartments in Al Riyadh </h5><br/><br/><br/>

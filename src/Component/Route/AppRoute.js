@@ -12,7 +12,7 @@ import MordanvillaPage from '../Pages/MordanvillaPage'
 import VillaPage from '../Pages/VillaPage'
 import TownHousePage from '../Pages/TownHousePage';
 import OfficePage from '../Pages/OfficePage';
-
+import ProjectDitailsPage from '../Pages/ProjectDitailsPage'
 import ContactusPage from '../Pages/ContactusPage';
 export default class AppRoute extends Component {
     render() {
@@ -33,6 +33,7 @@ export default class AppRoute extends Component {
                   <Route path="/townhouse" component={TownHousePage}/>
                   <Route path="/office" component={OfficePage}/>
                   <Route path="/contactus" component={ContactusPage}/>
+                  <Route path="/projectdetails" component={ProjectDitailsPage}/>
                </Switch>
                
              

@@ -627,6 +627,26 @@ svg text {
 			  color:'green';
 	}
   }
+  .imgLink{
+	  position: absolute;
+  }
+  .overlay {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: red;
+  }
+  
+  /* When you mouse over the container, fade in the overlay icon*/
+  .imgLink:hover .overlay {
+	opacity: 1;
+  }
   //contact page
   .contact{
 	position: relative;
