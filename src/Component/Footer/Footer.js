@@ -1,7 +1,9 @@
 
 import React, { Component,Fragment } from 'react'
 import { Container,Row,Col, Button,Media} from 'react-bootstrap'
-import charts from '../Images/homeimg2.jpg'
+import charts from '../Images/Logo.png'
+import living2 from '../Images/living2.jpg'
+import living3 from '../Images/living3.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationArrow ,faEnvelope,faPhoneSquare,faAngleRight} from '@fortawesome/free-solid-svg-icons'
 import {faFacebookSquare,faTwitter,faInstagramSquare, faYoutube}from '@fortawesome/free-brands-svg-icons'
@@ -15,7 +17,7 @@ export default class Footer extends Component {
                     <Container className=" p-3">
                     <Row className= "mt-5">
                         <Col xs={12} sm={12} md={4}lg={4}>
-                        <img style={{width: '100px'}} src={charts}alt="logo"/>
+                        <img style={{width: '300px'}} src={charts}alt="logo"/>
                          <p className="text-white"> Lorem ipsum dolor sit amet, consectetur 
                              adipiscing elit. Aenean urna magna,
                               mattis at ullamcorper in, pharetra in lorem.
@@ -25,11 +27,11 @@ export default class Footer extends Component {
                         <Col xs={12} sm={12} md={2}lg={2}>
                         <div>
                             <h3 className="text-white border-bottom">Quick Links</h3>
-                           <p className="" ><Link className="text-white qlink" to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Home </Link></p> 
-                           <p><Link className="text-white qlink" to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Propartice</Link></p> 
-                           <p><Link className="text-white qlink" to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Agent</Link></p> 
-                           <p><Link className="text-white qlink"  to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Block</Link></p> 
-                           <p><Link className="text-white qlink" to="/"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> Contact Us</Link></p> 
+                           <p className="" ><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> <Link className="text-white qlink" to="/">Home </Link></p> 
+                           <p><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span><Link className="text-white qlink" to="/apartment"> Propartice</Link></p> 
+                           <p><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span><Link className="text-white qlink" to="/"> Agent</Link></p> 
+                           <p><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span><Link className="text-white qlink"  to="/"> Block</Link></p> 
+                           <p><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> <Link className="text-white qlink" to="/contactus">Contact Us</Link></p> 
                         </div>
                          
                         </Col>
@@ -39,7 +41,7 @@ export default class Footer extends Component {
                             <Media>
                                 <img  width={64}
                                     height={64}
-                                    className="mr-3"style={{width: '100px'}} src={charts}alt="logo"/>
+                                    className="mr-3"style={{width: '100px'}} src={living2}alt="logo"/>
                                 
                             <Media.Body>   
                                 <p className="text-white">
@@ -51,7 +53,7 @@ export default class Footer extends Component {
                             <Media>
                                 <img  width={64}
                                     height={64}
-                                    className="mr-3"style={{width: '100px'}} src={charts}alt="logo"/>
+                                    className="mr-3"style={{width: '100px'}} src={living3}alt="logo"/>
                                 
                             <Media.Body>   
                                 <p className="ml-n1 text-white">

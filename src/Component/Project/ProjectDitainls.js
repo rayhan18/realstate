@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import { Container,Row,Col,Button,Tab,Nav } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart ,faComments,faPhone} from '@fortawesome/free-solid-svg-icons'
+//import {faFacebookSquare,faTwitter,faInstagramSquare, faYoutube}from '@fortawesome/free-brands-svg-icons'
 import aprtment from '../Images/living1.jpg'
 import living2 from '../Images/living2.jpg'
 import living3 from '../Images/living3.jpg'
@@ -20,7 +23,7 @@ export default class ProjectDitainls extends Component {
             
         return (
             <div>
-                <Container>
+                <Container className="mt-5">
                     <Row>
                         <Col sm={12}md={9} lg={9}>
                           <div>
@@ -70,43 +73,52 @@ export default class ProjectDitainls extends Component {
                                 </Row>
                                 </Tab.Container>
                           </div>
-                            <div>
-                                <Row>
+                            <div className="mt-3 mb-2 ml-5">
+                                <Row className="projectDetails">
                                 <Col sm={12}md={4} lg={4}>
-                                    <p>city: Al Riyadh</p>
-                                    <p>Number of bathrooms: 2 Bathrooms</p>
-                                    <p>Floor: First Floor || Second Floor</p>
-                                    <p>Price: 21,000SAR</p>
+                                    <p><span style={{color:'tomato'}}>City:</span> Al Riyadh</p>
+                                    <p> <span style={{color:'tomato'}}>Number of bathrooms:</span> 4 Bathrooms :2</p>
+                                    <p><span style={{color:'tomato'}}>Floor:</span> First Floor || Second Floor</p>
+                                    <p> <span style={{color:'tomato'}}>Price:</span> 21,000SAR</p>
                                   </Col>
                                   <Col sm={12}md={4} lg={4}>
-                        <p>Neighborhood: Al Mahdiyah</p>
-                        <p>Condition:Furnished/Unfurnished</p>
-                        <p>Payment Age: 0 - 11 months</p>
+                        <p><span style={{color:'tomato'}}>Neighborhood:</span> Al Mahdiyah</p>
+                        <p> <span style={{color:'tomato'}}>Condition:</span>Furnished/Unfurnished</p>
+                        <p><span style={{color:'tomato'}}>Payment Age:</span> 0 - 11 months</p>
                     </Col>
                     <Col sm={12}md={4} lg={4}>
-                        <p>Number of rooms: 2 Bedrooms</p>
-                        <p>Surface Area: 500 m2</p>
-                        <p>Rental period: Yearly</p>
+                        <p> <span style={{color:'tomato'}}>Number of rooms:</span> 2 Bedrooms</p>
+                        <p><span style={{color:'tomato'}}>Surface Area:</span> 500 m2</p>
+                        <p><span style={{color:'tomato'}}>Rental period:</span> Yearly</p>
                     </Col>
                                 </Row>
                             </div>
                         </Col>
+                        {/* //site bar==============-------------------- */}
                         <Col sm={12}md={3} lg={3}>
-                         <h5>Add to favorites</h5>
+                         <h5 className="text-center p-2 bg-primary"><FontAwesomeIcon  style={{color:'white'}}icon={faHeart}/> Add to favorites</h5>
                          <div>
+                             <div className="border p-1 text-center mb-1">
                              <h2>Price:$9999</h2>
-                             <p>Notify me if price drops</p>
-                             <Button variant="primary" size="lg" active>+966 0123456789<br/>
-                                Click to show phone number </Button>
-                                <Button variant="primary" size="lg" active>
-                                   Chat</Button>
-                                   <Button variant="outline-primary">+ | Flow</Button>
-                                   <ul>
+                             <p><FontAwesomeIcon  style={{color:'tomato'}}icon={faHeart}/> Notify me if price drops</p>
+                             </div>
+                             
+                             <Button variant="primary mb-1" size="lg" active>  <FontAwesomeIcon  style={{color:'tomato'}}icon={faPhone}/> | +966 0123456789<br/>
+                                 </Button>
+                                <Button variant="primary mr-2" size="lg" active><FontAwesomeIcon  style={{color:'tomato'}}icon={faComments}/> |
+                                    Chat</Button>
+                                   <Button variant="outline-primary " size="lg">+ | Flow</Button>
+                                   <ul className="mt-3">
                                        <li>Only meet in public places.</li>
                                        <li>Never pay or transfer money in advance.</li>
                                        <li>nspect the product before you buy it.</li>
-                                       <li></li>
+                                      <hr/>
                                    </ul>
+                         </div>
+                         <div className="mt-2 border p-2 bg-light">
+                            <h3>The simpler, safer way to pay and get paid.</h3>
+                            <h5>Join 200M active accounts worldwide.</h5>
+                            <h5>All you need for an optimal integration.</h5>
                          </div>
                         </Col>
                     </Row>

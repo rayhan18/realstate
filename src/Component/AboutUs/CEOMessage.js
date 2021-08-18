@@ -19,7 +19,7 @@ export default class CEOMessage extends Component {
                       <SitebarAboutus/>
                      </Col>
                      <Col sm={12}md={9} lg={9}>
-                     <h3 className=" charmanstyle text-white p-2">Chairman’s Message</h3><hr/>
+                     <h3 className=" charmanstyle text-white p-2">CEO'S Message</h3><hr/>
                     <p className="fst-italic">
                     Since its inception, DremHill Real Estate Company has adopted 
                     a clear vision based on the development of quality residential 
