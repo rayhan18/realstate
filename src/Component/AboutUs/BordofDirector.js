@@ -5,7 +5,7 @@ export default class BordofDirector extends Component {
     render() {
         return (
             <div>
-                <Container>
+                <Container className="slideInUp">
                     <Agent title="Bord of Director"subTitle="Lorem ipsum dolor sit amet consectetur"/>
                     <Agent/>
                     <Agent/>

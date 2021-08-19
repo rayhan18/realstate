@@ -13,7 +13,7 @@ export default class Footer extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true} className="fottercontain">
+                <Container fluid={true} className="fottercontain slideInUp">
                     <Container className=" p-3">
                     <Row className= "mt-5">
                         <Col xs={12} sm={12} md={4}lg={4}>

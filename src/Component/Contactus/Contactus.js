@@ -21,7 +21,7 @@ export default class Contactus extends Component {
         }
         return (
             <div>
-                <Container fluid={true} >
+                <Container fluid={true} className="slideInUp">
                     <div className="contact">
                            <img style={imgstyle} src={pro} alt="banner"/>
                       

@@ -10,7 +10,7 @@ export default class Villa extends Component {
         
         return (
             <div>
-                <Container fluid={true} className="projectimg">
+                <Container fluid={true} className="projectimg ">
                     <div className="">
                         {/* <img  className="projectimg" src={coverimg} alt="coverimg"/> */}
                         <h1 className="projectHeading PROSTYLE"> PROJECTS</h1>

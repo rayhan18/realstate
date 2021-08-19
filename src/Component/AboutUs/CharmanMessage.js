@@ -10,7 +10,7 @@ export default class CharmanMessage extends Component {
         
         return (
             <div >
-                <Container className="mt-5">
+                <Container className="mt-5 slideInUp">
                 
                     <h3 className=" charmanstyle text-white p-2">Chairman’s Message</h3><hr/>
                     <p className="fst-italic">

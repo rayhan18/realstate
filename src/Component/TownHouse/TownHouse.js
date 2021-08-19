@@ -10,7 +10,7 @@ export default class TownHouse extends Component {
         
         return (
             <div>
-                <Container fluid={true} className="projectimg">
+                <Container fluid={true} className="projectimg slideInUp">
                     <div className="">
                         {/* <img  className="projectimg" src={coverimg} alt="coverimg"/> */}
                         <h1 className="projectHeading PROSTYLE"> PROJECTS</h1>

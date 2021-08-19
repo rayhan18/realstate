@@ -9,7 +9,7 @@ export default class PropartyItem extends Component {
     render() {
         return (
             <div>
-                <Container>
+                <Container className="slideInUp">
                     <Row>
                     
 

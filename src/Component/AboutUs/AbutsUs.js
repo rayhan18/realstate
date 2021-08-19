@@ -13,7 +13,7 @@ export default class AbutsUs extends Component {
         }
         return (
             <Fragment>
-                <Container className="mt-4">
+                <Container className="mt-4 slideInUp">
                     <Row>
                         <Col sm={12}md={3} lg={3}>
                            <SitebarAboutus/>

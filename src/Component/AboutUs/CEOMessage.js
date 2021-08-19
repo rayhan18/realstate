@@ -13,7 +13,7 @@ export default class CEOMessage extends Component {
         
         return (
             <div >
-                <Container className="mt-5 bgimg">
+                <Container className="mt-5 bgimg slideInUp">
                  <Row>
                      <Col sm={12}md={3} lg={3}>
                       <SitebarAboutus/>

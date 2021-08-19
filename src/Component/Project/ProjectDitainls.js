@@ -23,7 +23,7 @@ export default class ProjectDitainls extends Component {
             
         return (
             <div>
-                <Container className="mt-5">
+                <Container className="mt-5 slideInUp">
                     <Row>
                         <Col sm={12}md={9} lg={9}>
                           <div>

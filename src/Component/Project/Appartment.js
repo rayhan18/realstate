@@ -15,7 +15,7 @@ export default class Appartment extends Component {
         }
         return (
             <div>
-             <Container className="mt-5"> 
+             <Container className="mt-5 slideInUp"> 
              <h3 className="text-center bg-info p-2">{this.props.title}</h3>
                 <Row >
                     <Col sm={12} md={12} lg={12} className="border mb-3 apartmentrow">

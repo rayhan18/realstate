@@ -17,7 +17,7 @@ export default class Proparty extends Component {
         
         return (
             <div>
-                <Container>
+                <Container className="slideInUp">
                     <Row>
                         <Col sm={12} md={3} lg={3} >
                         <Form  className=" border border-warning p-2">
