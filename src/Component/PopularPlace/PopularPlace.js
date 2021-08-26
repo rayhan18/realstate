@@ -18,7 +18,7 @@ export default class PopularPlace extends Component {
                     </div>
                     
                 <Row>
-                    <Col sm={12} md={8} lg={8}>
+                    <Col sm={12} md={6} lg={8}>
                     <div class="grid">
 					<Figure class="effect-layla">
                        <img src={HomeImage1} style={{width: '100%'}} alt=" california"/>
@@ -31,7 +31,7 @@ export default class PopularPlace extends Component {
                     
                     </div>
                     </Col>
-                    <Col sm={4} md={8} lg={4}>
+                    <Col sm={4} md={6} lg={4}>
                     
                     <div class="grid">
 					<Figure class="effect-layla" style={{height: '250px'}}>
@@ -72,7 +72,7 @@ export default class PopularPlace extends Component {
                     
                     </div>
                     </Col>
-                    <Col sm={4} md={4} lg={4}>
+                    <Col sm={6} md={4} lg={4}>
                    
                     <div class="grid">
 					<Figure class="effect-layla" style={{height: '250px'}}>
@@ -86,7 +86,7 @@ export default class PopularPlace extends Component {
                     
                     </div>
                     </Col>
-                    <Col sm={4} md={4} lg={4}>
+                    <Col sm={6} md={4} lg={4}>
                    
                     <div class="grid">
 					<Figure class="effect-layla" style={{height: '250px'}}>

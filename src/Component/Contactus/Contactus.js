@@ -33,7 +33,7 @@ export default class Contactus extends Component {
 
                     <Row>
                         <Col style={{background:' #fe7b1373',
-                                  padding: '20px'}} sm={12} md={8} lg={8}>
+                                  padding: '20px'}} sm={12} md={6} lg={6}>
                            <Form>
                            <Row className="mb-3">
                            <Form.Group as={Col} controlId="formGridName">
@@ -59,10 +59,10 @@ export default class Contactus extends Component {
                             </Button>
                            </Form>
                         </Col>
-                        <Col sm={12} md={4} lg={4}>
-                        <div style={{ height: '50vh', width: '50%' }}>
+                        <Col sm={12} md={6} lg={6}>
+                        <div style={{ height: '50vh', width: '100%' }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: "https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap" }}
+          bootstrapURLKeys={{ key:"AIzaSyBtQJoq1ESXf-AAekzcl-YrpaRHbhEgRbE" }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >

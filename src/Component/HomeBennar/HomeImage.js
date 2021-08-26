@@ -13,8 +13,8 @@ export default class HomeImage extends Component {
         }
         return (
             <Fragment>
-                <Container fluid={true} className=" slideInUp topBennarimg"> 
-                    <div className="">
+                <Container fluid={true} > 
+                    <div className=" slideInUp topBennarimg">
                         <h1  style={{color:' rgb(208 208 236)'}}className="text-center">FIND YOUR DREAM HOME</h1>
                         <h5 style={{color: '#fff'}} className="text-center">From as low as $100 per day with limited time offer discounts.</h5>
                    

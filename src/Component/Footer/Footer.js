@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationArrow ,faEnvelope,faPhoneSquare,faAngleRight} from '@fortawesome/free-solid-svg-icons'
 import {faFacebookSquare,faTwitter,faInstagramSquare, faYoutube}from '@fortawesome/free-brands-svg-icons'
 import '../Style/Style.scss'
+import '../Style/Responsive.css'
 import {Link} from 'react-router-dom'
 export default class Footer extends Component {
     render() {

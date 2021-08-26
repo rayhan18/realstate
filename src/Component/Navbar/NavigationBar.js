@@ -12,7 +12,7 @@ export default class NavigationBar extends Component {
         
         return (
             <Fragment>
-               <div>
+               <div className="topheader">
                 <Navbar bg="dark" variant="dark"  >
                     <Navbar.Brand href="#home" style={{ marginLeft:'50px'}}>
                         <FontAwesomeIcon className="iconStyle" icon={faFacebook}/>

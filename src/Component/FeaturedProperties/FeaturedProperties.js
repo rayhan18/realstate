@@ -4,22 +4,22 @@ import charts from '../Images/homeimg2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
  import { faMapMarkerAlt ,faHeart,faArrowsAltH,faCouch} from '@fortawesome/free-solid-svg-icons'
 //import {faFacebookSquare,}from '@fortawesome/free-brands-svg-icons'
-
+import '../Style/Responsive.css'
 export default class FeaturedProperties extends Component {
   
     render() {
         return (
             <Fragment>
-                <Container className="slideInUp">
+                <Container className="slideInUp mx-auto">
                     <div className="text-center mt-5 mb-4">
                         <h4 className="display-4">{this.props.title}</h4>
                         <h5>
                             {this.props.subTitle}
                         </h5>
                     </div>
-                    <Row>
-                        <Col xs={12} sm={12} md={4} lg={4} className="fuchearcart">
-                            <Card style={{ width: '21rem', border:'none',marginLeft:" 8px"}}className="img-hover-zoom--colorize img">
+                    <Row className="ml-auto mr-auto">
+                        <Col xs={12} sm={12} md={4} lg={4} className="fuchearcart mx-auto">
+                            <Card className="  img-hover-zoom--colorize img ">
                             <Card.Img variant="top mt-3 " src={charts} />
                             <Card.Body>
                                 <a href="/"><Card.Title >Upper portion Apartment for sale</Card.Title></a>
@@ -48,7 +48,7 @@ export default class FeaturedProperties extends Component {
                             </Card>
                         </Col>
                         <Col xs={12} sm={12} md={4} lg={4} className="fuchearcart">
-                            <Card style={{ width: '21rem', border:'none',marginLeft:" 8px"}}className="img-hover-zoom--colorize img">
+                            <Card className="img-hover-zoom--colorize img">
                             <Card.Img variant="top mt-3 " src={charts} />
                             <Card.Body>
                                 <a href="/"><Card.Title >Upper portion Apartment for sale</Card.Title></a>
@@ -77,7 +77,7 @@ export default class FeaturedProperties extends Component {
                             </Card>
                         </Col>
                         <Col xs={12} sm={12} md={4} lg={4} className="fuchearcart">
-                            <Card style={{ width: '21rem', border:'none',marginLeft:" 8px"}}className="img-hover-zoom--colorize img">
+                            <Card className="img-hover-zoom--colorize img">
                             <Card.Img variant="top mt-3 " src={charts} />
                             <Card.Body>
                                 <a href="/"><Card.Title >Upper portion Apartment for sale</Card.Title></a>

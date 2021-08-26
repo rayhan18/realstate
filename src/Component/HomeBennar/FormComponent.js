@@ -1,23 +1,20 @@
 import React, { Component } from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
+import '../Style/Responsive.css'
 export default class FormComponent extends Component {
     render() {
 
-        const inputstyle={
-            height:' 45px',
-           width: '295px',
-          //  borderRadius: '10px'
-        }
+        
         return (
             <div>
 
             <Container>
              <Row >
-             <Col md={4} className="my-2">
-             <input style={inputstyle} type="text" placeholder="Enter proparty location"/>
+             <Col sm={12} md={4} lg={4} className="my-2">
+             <input className="bannerinput"  type="text" placeholder="Enter proparty location"/>
              </Col>
              <Col md={4} className="my-2">
-             <input style={inputstyle} type="text" placeholder="City"/>
+             <input className="bannerinput" type="text" placeholder="City"/>
              </Col>
               <Col md={4} className="my-2">
             <select style={{width: '205px',height: '45px'}} >

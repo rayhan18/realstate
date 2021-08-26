@@ -65,12 +65,18 @@ h1,h2,h3,h4,h5,h6{
 //home img style
  .topBennarimg{
     background-image:url('../Images/bannerimg.png') ;
-    height: 500px;
+	width: 100%;
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size:cover ;
 	padding: 50px;
 	
     }
+	.bannerinput{
+		height: 45px;
+		width: 295px;
+	}
+	
+	
     // .topBennarheding{
     //     position: absolute;
     //     top: 24%;
@@ -101,7 +107,10 @@ h1,h2,h3,h4,h5,h6{
   
    
  }
- // futher cart
+ // fuchter cart
+ .fuchterCart{
+	width: 21rem; border:none; margin-left: 8px;
+ }
  .apart {
     background: #ffb900;
     z-index: 1000;
@@ -340,8 +349,9 @@ figure.effect-layla:hover img {
 	padding: 50px;
     background-position: right;
     background-repeat: no-repeat;
-    height: 235px;
+    // height: 235px;
 	background-size: cover;
+	margin-top:50px;
 }
 .benner2Title{
 	font-weight: 900;
