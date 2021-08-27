@@ -31,7 +31,7 @@ export default class PopularPlace extends Component {
                     
                     </div>
                     </Col>
-                    <Col sm={4} md={6} lg={4}>
+                    <Col sm={12} md={6} lg={4}>
                     
                     <div class="grid">
 					<Figure class="effect-layla" style={{height: '250px'}}>
@@ -72,7 +72,7 @@ export default class PopularPlace extends Component {
                     
                     </div>
                     </Col>
-                    <Col sm={6} md={4} lg={4}>
+                    <Col sm={12} md={4} lg={4}>
                    
                     <div class="grid">
 					<Figure class="effect-layla" style={{height: '250px'}}>
@@ -86,7 +86,7 @@ export default class PopularPlace extends Component {
                     
                     </div>
                     </Col>
-                    <Col sm={6} md={4} lg={4}>
+                    <Col sm={12} md={4} lg={4}>
                    
                     <div class="grid">
 					<Figure class="effect-layla" style={{height: '250px'}}>

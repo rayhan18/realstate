@@ -5,6 +5,12 @@
         width:154px !important;
         
     }
+    .backImg {
+        margin-left: 5px;
+    }
+    .responsiveStyle{
+        margin-top: 0px;
+    }
 }
     @media only screen and (min-device-width : 769px) and (max-device-width : 992px) {
         /* Styles */
@@ -16,6 +22,12 @@
         }
         .topheader{
             margin-right: -50px;
+        }
+        .backImg {
+            margin-left: 10px;
+        }
+        .responsiveStyle{
+            margin-top: 0px;
         }
         }
         @media only screen and (min-device-width : 577px) and (max-device-width : 768px) {
@@ -34,12 +46,31 @@
                 margin-right: -50px;
             }
             .backImg {
-                margin-left: 50px;
+                margin-left: 60px;
+            }
+            .responsiveStyle{
+                margin-top: 40px;
             }
             }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 220px) and (max-device-width : 576px) {
     /* Styles */
+    .topheader{
+        margin-right: -68px;
+    }
+    .topBennarimg {
+        margin: 0 20px;
+    }
+    .fucherbgimg {
+        margin-right: -50px;
+    }
+    .fuchearcart {
+        margin-top: 190px;
+        margin-bottom: 10px;
+    }
+    .backImg {
+        margin-left: 0px;
+    }
     }
 
 

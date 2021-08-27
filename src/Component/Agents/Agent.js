@@ -6,6 +6,7 @@ import man3 from '../Images/man3.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import {faFacebookSquare,faTwitter,faInstagramSquare, faYoutube}from '@fortawesome/free-brands-svg-icons'
+import '../Style/Responsive.css'
 export default class Agent extends Component {
     render() {
         
@@ -29,7 +30,7 @@ export default class Agent extends Component {
                 </div>
                 
                 <Row className="mt-5">
-                    <Col sm={12} md={4} lg={4}>
+                    <Col xs={12} sm={6} md={6} lg={4} className="responsiveStyle">
                     <Card style={cartStyle}>
                         <Card.Img variant="top" src={man4} className="cartimg" />
                         <Card.Body>
@@ -42,7 +43,7 @@ export default class Agent extends Component {
                         </Card.Body>
                         </Card>
                     </Col>
-                    <Col sm={12} md={4} lg={4}>
+                    <Col xs={12} sm={6} md={6} lg={4} className="responsiveStyle">
                     <Card style={cartStyle}>
                         <Card.Img variant="top" src={man2} className="cartimg"/>
                         <Card.Body>
@@ -55,7 +56,7 @@ export default class Agent extends Component {
                         </Card.Body>
                         </Card>
                     </Col>
-                    <Col sm={12} md={4} lg={4}>
+                    <Col xs={12} sm={6} md={6} lg={4} className="responsiveStyle">
                     <Card style={cartStyle}>
                         <Card.Img variant="top" src={man3} className="cartimg"/>
                         <Card.Body>

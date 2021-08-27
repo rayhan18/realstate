@@ -17,7 +17,7 @@ export default class Footer extends Component {
                 <Container fluid={true} className="fottercontain slideInUp">
                     <Container className=" p-3">
                     <Row className= "mt-5">
-                        <Col xs={12} sm={12} md={4}lg={4}>
+                        <Col xs={12} sm={6} md={6}lg={3}>
                         <img style={{width: '300px'}} src={charts}alt="logo"/>
                          <p className="text-white"> Lorem ipsum dolor sit amet, consectetur 
                              adipiscing elit. Aenean urna magna,
@@ -25,7 +25,7 @@ export default class Footer extends Component {
                                Etiam mollis.</p>
                                <Button variant="warning"><Link to="/aboutus">READ MORE</Link></Button>{' '}
                         </Col>
-                        <Col xs={12} sm={12} md={2}lg={2}>
+                        <Col xs={12} sm={6} md={6}lg={3}>
                         <div>
                             <h3 className="text-white border-bottom">Quick Links</h3>
                            <p className="" ><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faAngleRight}/></span> <Link className="text-white qlink" to="/">Home </Link></p> 
@@ -36,7 +36,7 @@ export default class Footer extends Component {
                         </div>
                          
                         </Col>
-                        <Col xs={12} sm={12} md={3}lg={3}>
+                        <Col xs={12} sm={6} md={6}lg={3}>
                         <div>
                             <h3 className="text-white border-bottom">Recent Properties</h3>
                             <Media>
@@ -67,7 +67,7 @@ export default class Footer extends Component {
                         </div>
                          
                         </Col>
-                        <Col xs={12} sm={12} md={2}lg={3}>
+                        <Col xs={12} sm={6} md={6}lg={3}>
                         <div>
                             <h3 className="text-white border-bottom">Contact Info</h3>
                            <p className="text-white"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faLocationArrow}/></span> 123 Lorem Ipsum, 45 sit Atlanta</p> 
