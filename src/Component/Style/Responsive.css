@@ -40,13 +40,18 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 padding: 50px;
-                margin: 0 50px;
+                margin: 0 10px;
             }
             .fucherbgimg {
                 margin-right: -50px;
             }
             .backImg {
                 margin-left: 60px;
+            }
+            .fuchearcart {
+                margin-top: 230px;
+               
+                overflow: hidden;
             }
             .responsiveStyle{
                 margin-top: 40px;
@@ -58,22 +63,41 @@
     .topheader{
         margin-right: -68px;
     }
-    .topBennarimg {
-        margin: 0 20px;
-    }
+    
     .fucherbgimg {
         margin-right: -50px;
     }
     .fuchearcart {
-        margin-top: 190px;
-        margin-bottom: 10px;
+        margin-top: 230px;
+       
+        overflow: hidden;
     }
     .backImg {
         margin-left: 0px;
     }
+    .responsiveStyle {
+     
+        margin-left: 80px;
     }
-
-
+    /* .fottercontain {
+        /* background-color: #9b2121;
+        margin-left: 20px; */
+    /* } */ */
+    .fotterimg{
+        margin-left: -33px;
+    }
+    
+    
+    
+    .charmanText{
+        margin-left: 100px;
+    }
+    .imgStyle{
+        width:100px;
+        height: 100px;
+       
+      }
+}
 
 
 

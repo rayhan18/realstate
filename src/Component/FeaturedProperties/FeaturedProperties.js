@@ -49,7 +49,7 @@ export default class FeaturedProperties extends Component {
                         </Col>
                         <Col xs={12} sm={12} md={4} lg={4} className="fuchearcart">
                             <Card className="img-hover-zoom--colorize img">
-                            <Card.Img variant="top mt-3 " src={charts} />
+                            <Card.Img variant="top mt-3 " src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE1fHxob21lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
                             <Card.Body>
                                 <a href="/"><Card.Title >Upper portion Apartment for sale</Card.Title></a>
                                 <p style={{color:'lightslategray'}}><span style={{fontSize: '1em', color:'Tomato'}}><FontAwesomeIcon icon={faMapMarkerAlt}/></span> Staten Island / Queens</p>
@@ -78,7 +78,7 @@ export default class FeaturedProperties extends Component {
                         </Col>
                         <Col xs={12} sm={12} md={4} lg={4} className="fuchearcart">
                             <Card className="img-hover-zoom--colorize img">
-                            <Card.Img variant="top mt-3 " src={charts} />
+                            <Card.Img variant="top mt-3 " src="https://images.unsplash.com/photo-1560185009-dddeb820c7b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM4fHxob21lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
                             <Card.Body>
                                 <a href="/"><Card.Title >Upper portion Apartment for sale</Card.Title></a>
                                 <p style={{color:'lightslategray'}}><span style={{fontSize: '1em', color:'Tomato'}}><FontAwesomeIcon icon={faMapMarkerAlt}/></span> Staten Island / Queens</p>

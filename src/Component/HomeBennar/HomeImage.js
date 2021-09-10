@@ -21,13 +21,13 @@ export default class HomeImage extends Component {
                    
                    <Row className="mt-5 " style={rowstyle}>
                         <Col style={{background: 'rgb(18 7 102 / 28%)', padding: '31px'}}>
-                            <div style={{marginLeft: '217px'}}>
+                            <div>
                                 <h4 className="btn btn-warning mr-2 ">Bay Proparty</h4>
                                 <h4 className="btn btn-warning">Rent Proparty</h4>
                             </div>
-                            <div style={{marginLeft: '200px', marginRight:' 200px'}}>
+                           
                                 <FormComponent/>
-                            </div>
+                           
                         </Col>
 
                      </Row>

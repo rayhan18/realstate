@@ -14,8 +14,8 @@ export default class PropartyItem extends Component {
                     
 
                         
-                        <Col xs={12} sm={12} md={6} lg={6} className=" mt-3 mb-2">
-                        <Card style={{ width: '23rem',border: '2px solid #e1dde6' }}className="img-hover-zoom--colorize img">
+                        <Col xs={12} sm={12} md={12} lg={6} className=" mt-3 mb-2">
+                        <Card style={{ width: '23rem',border: '2px solid #e1dde6',justifyContent:'center' }}className="img-hover-zoom--colorize img">
                         <Card.Img variant="top  " src={charts} />
                             <Card.Body>
                             <Link to="/"><Card.Title >Upper portion Apartment for sale</Card.Title></Link>
@@ -42,9 +42,9 @@ export default class PropartyItem extends Component {
                             </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={12} md={6} lg={6} className=" mt-3 mb-2">
+                        <Col xs={12} sm={12} md={12} lg={6} className=" mt-3 mb-2">
                         <Card style={{ width: '23rem',border: '2px solid #e1dde6' }} className="img-hover-zoom--colorize img">
-                        <Card.Img variant="top  " src={charts} />
+                        <Card.Img variant="top  " src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxob21lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
                             <Card.Body>
                             <Link to="/"><Card.Title >Upper portion Apartment for sale</Card.Title></Link>
                                 <p style={{color:'lightslategray'}}><span style={{fontSize: '1em', color:'Tomato'}}><FontAwesomeIcon icon={faMapMarkerAlt}/></span> Staten Island / Queens</p>
@@ -70,9 +70,9 @@ export default class PropartyItem extends Component {
                             </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={12} md={6} lg={6} className=" mt-3 mb-2">
+                        <Col xs={12} sm={12} md={12} lg={6} className=" mt-3 mb-2">
                         <Card style={{ width: '23rem',border: '2px solid #e1dde6' }} className="img-hover-zoom--colorize img">
-                        <Card.Img variant="top  " src={charts} />
+                        <Card.Img variant="top  " src="https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
                             <Card.Body>
                             <Link to="/"><Card.Title >Upper portion Apartment for sale</Card.Title></Link>
                                 <p style={{color:'lightslategray'}}><span style={{fontSize: '1em', color:'Tomato'}}><FontAwesomeIcon icon={faMapMarkerAlt}/></span> Staten Island / Queens</p>
@@ -98,9 +98,9 @@ export default class PropartyItem extends Component {
                             </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={12} md={6} lg={6} className=" mt-3 mb-2">
+                        <Col xs={12} sm={12} md={12} lg={6} className=" mt-3 mb-2">
                         <Card style={{ width: '23rem',border: '2px solid #e1dde6' }} className="img-hover-zoom--colorize img">
-                        <Card.Img variant="top  " src={charts} />
+                        <Card.Img variant="top  " src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fGhvbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
                             <Card.Body>
                             <Link to="/"><Card.Title >Upper portion Apartment for sale</Card.Title></Link>
                                 <p style={{color:'lightslategray'}}><span style={{fontSize: '1em', color:'Tomato'}}><FontAwesomeIcon icon={faMapMarkerAlt}/></span> Staten Island / Queens</p>
@@ -126,9 +126,9 @@ export default class PropartyItem extends Component {
                             </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={12} md={6} lg={6} className=" mt-3 mb-2">
+                        <Col xs={12} sm={12} md={12} lg={6} className=" mt-3 mb-2">
                         <Card style={{ width: '23rem',border: '2px solid #e1dde6' }} className="img-hover-zoom--colorize img">
-                        <Card.Img variant="top  " src={charts} />
+                        <Card.Img variant="top  " src="https://images.unsplash.com/photo-1521782462922-9318be1cfd04?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODV8fGhvbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
                             <Card.Body>
                             <Link to="/"><Card.Title >Upper portion Apartment for sale</Card.Title></Link>
                                 <p style={{color:'lightslategray'}}><span style={{fontSize: '1em', color:'Tomato'}}><FontAwesomeIcon icon={faMapMarkerAlt}/></span> Staten Island / Queens</p>
@@ -154,9 +154,9 @@ export default class PropartyItem extends Component {
                             </Card.Body>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={12} md={6} lg={6} className=" mt-3 mb-2">
+                        <Col xs={12} sm={12} md={12} lg={6} className=" mt-3 mb-2">
                         <Card style={{ width: '23rem',border: '2px solid #e1dde6' }} className="img-hover-zoom--colorize img">
-                        <Card.Img variant="top  " src={charts} />
+                        <Card.Img variant="top  " src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTV8fGhvbWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
                             <Card.Body>
                             <Link to="/"><Card.Title >Upper portion Apartment for sale</Card.Title></Link>
                                 <p style={{color:'lightslategray'}}><span style={{fontSize: '1em', color:'Tomato'}}><FontAwesomeIcon icon={faMapMarkerAlt}/></span> Staten Island / Queens</p>

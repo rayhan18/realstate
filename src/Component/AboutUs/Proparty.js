@@ -14,12 +14,12 @@ export default class Proparty extends Component {
             margin: '10px 0px',
             borderRadius: '5px'
         }
-        
+        // left site bar
         return (
             <div>
                 <Container className="slideInUp">
                     <Row>
-                        <Col sm={12} md={3} lg={3} >
+                        <Col sm={12} md={6} lg={3} >
                         <Form  className=" border border-warning p-2">
                             <InputGroup>
                             <input style={inputStyle} type="text" placeholder="keyword"/>
@@ -140,7 +140,7 @@ export default class Proparty extends Component {
                         </Col>
 
                         {/* //write site colam */}
-                        <Col sm={12} md={9} lg={9}>
+                        <Col sm={12} md={6} lg={9}>
                             {/* //nav bar */}
                         <Navbar className="border border-warning" bg="light" expand="lg">
                             <Container>

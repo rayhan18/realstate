@@ -19,8 +19,8 @@ export default class PopularPlace extends Component {
                     
                 <Row>
                     <Col sm={12} md={6} lg={8}>
-                    <div class="grid">
-					<Figure class="effect-layla">
+                    <div className="grid">
+					<Figure className="effect-layla">
                        <img src={HomeImage1} style={{width: '100%'}} alt=" california"/>
                         <Figure.Caption className="figcaption">
 							<h2>Crazy <span>:Layla</span></h2>
@@ -33,8 +33,8 @@ export default class PopularPlace extends Component {
                     </Col>
                     <Col sm={12} md={6} lg={4}>
                     
-                    <div class="grid">
-					<Figure class="effect-layla" style={{height: '250px'}}>
+                    <div className="grid">
+					<Figure className="effect-layla" style={{height: '250px'}}>
                        <img src={HomeImage2} style={{width: '100%'}} alt=" california"/>
                         <Figure.Caption className="figcaption">
 							<h2>Crazy <span>:Rocxi</span></h2>
@@ -44,8 +44,8 @@ export default class PopularPlace extends Component {
 					</Figure>
                     
                     </div>
-                    <div class="grid">
-					<Figure class="effect-layla"  style={{height: '250px'}}>
+                    <div className="grid">
+					<Figure className="effect-layla"  style={{height: '250px'}}>
                        <img src={HomeImage3} style={{width: '100%'}} alt=" california"/>
                         <Figure.Caption className="figcaption">
 							<h2>Crazy <span>:Shipo</span></h2>
@@ -60,8 +60,8 @@ export default class PopularPlace extends Component {
                 </Row>
                 <Row>
                     <Col sm={12} md={4} lg={4}>
-                   <div class="grid">
-					<Figure class="effect-layla" style={{height: '250px'}}>
+                   <div className="grid">
+					<Figure className="effect-layla" style={{height: '250px'}}>
                        <img src={HomeImage4} style={{width: '100%'}} alt=" california"/>
                         <Figure.Caption className="figcaption">
 							<h2>Crazy <span>:Phaddma</span></h2>
@@ -74,8 +74,8 @@ export default class PopularPlace extends Component {
                     </Col>
                     <Col sm={12} md={4} lg={4}>
                    
-                    <div class="grid">
-					<Figure class="effect-layla" style={{height: '250px'}}>
+                    <div className="grid">
+					<Figure className="effect-layla" style={{height: '250px'}}>
                        <img src={HomeImage5} style={{width: '100%'}} alt=" california"/>
                         <Figure.Caption className="figcaption">
 							<h2>Crazy <span>:Hilsa</span></h2>
@@ -88,8 +88,8 @@ export default class PopularPlace extends Component {
                     </Col>
                     <Col sm={12} md={4} lg={4}>
                    
-                    <div class="grid">
-					<Figure class="effect-layla" style={{height: '250px'}}>
+                    <div className="grid">
+					<Figure className="effect-layla" style={{height: '250px'}}>
                        <img src={HomeImage6} style={{width: '100%'}} alt=" california"/>
                         <Figure.Caption className="figcaption">
 							<h2>Crazy <span>:Lilli</span></h2>

@@ -35,10 +35,10 @@ export default class NavigationBar extends Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto ml-auto">
-                        <Nav.Link ><strong><Link to="/">Home</Link></strong></Nav.Link>
-                        <Nav.Link ><strong><Link to="/aboutus">About Us</Link></strong></Nav.Link>
-                        <Nav.Link  ><strong><Link to="/apartment"> Our Project</Link></strong>  </Nav.Link>                                               
-                        <Nav.Link  > <strong><Link to="/contactus">Contact Us</Link></strong>  </Nav.Link>
+                        <Nav.Link><strong><Link to="/">Home</Link></strong></Nav.Link>
+                        <Nav.Link><strong><Link to="/aboutus">About Us</Link></strong></Nav.Link>
+                        <Nav.Link><strong><Link to="/apartment"> Our Project</Link></strong>  </Nav.Link>                                               
+                        <Nav.Link> <strong><Link to="/contactus">Contact Us</Link></strong>  </Nav.Link>
                         </Nav>
                         <Nav>
                         {/* <Nav.Link  > <strong><Link to="/login">Login</Link></strong>  </Nav.Link> */}

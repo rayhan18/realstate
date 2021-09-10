@@ -17,7 +17,7 @@ export default class Banner2 extends Component {
                         </Col>
                         <Col sm={12} md={4} lg={4} className="text-center mt-5">
                             <div className="banner2-btn">
-                            <Button type="button" className="btn-warning " size-lg><a href="/">BROWSE PROPERTIES</a></Button>
+                            <Button type="button" className="btn-warning " size-lg ='true'><a href="/">BROWSE PROPERTIES</a></Button>
                             </div>
                        
                         </Col>

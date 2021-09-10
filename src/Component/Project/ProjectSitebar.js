@@ -33,7 +33,7 @@ export default class ProjectSitebar extends Component {
 
                 <Container className="mt-5">
                   <h5 className=" p-2 bg-primary" >{this.state.aria}</h5>
-                <Dropdown className="d-inline mx-2" autoClose={false}>
+                <Dropdown className="d-inline mx-2" >
                     <Dropdown.Toggle id="dropdown-autoclose-false " className="btn-block">
                    Aria
                     </Dropdown.Toggle>

@@ -18,7 +18,7 @@ export default class Footer extends Component {
                     <Container className=" p-3">
                     <Row className= "mt-5">
                         <Col xs={12} sm={6} md={6}lg={3}>
-                        <img style={{width: '300px'}} src={charts}alt="logo"/>
+                        <img className="fotterimg" style={{width: '18rem',marginLeft:'-2rem'}} src={charts}alt="logo"/>
                          <p className="text-white"> Lorem ipsum dolor sit amet, consectetur 
                              adipiscing elit. Aenean urna magna,
                               mattis at ullamcorper in, pharetra in lorem.
@@ -74,7 +74,7 @@ export default class Footer extends Component {
                            <p className="text-white"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faEnvelope}/></span> info@reales.com</p> 
                            <p className="text-white"><span style={{color:'tomato',fontSize:'20px'}}><FontAwesomeIcon icon={faPhoneSquare}/></span> +0555555555</p> 
                              {/* <p className="text-white"><span className="socialLink"> */}
-                              <Link to="/" className="socialLink"> <FontAwesomeIcon icon={faFacebookSquare}/></Link>
+                              <Link to="/" className="socialLink"> <FontAwesomeIcon className="" icon={faFacebookSquare}/></Link>
                               <Link to="/" className="socialLink"> <FontAwesomeIcon icon={faTwitter}/></Link>
                               <Link to ="/" className="socialLink"> <FontAwesomeIcon icon={faInstagramSquare}/></Link>
                               <Link to ="/" className="socialLink"> <FontAwesomeIcon icon={faYoutube}/></Link>

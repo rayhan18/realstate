@@ -30,7 +30,7 @@ export default class Agent extends Component {
                 </div>
                 
                 <Row className="mt-5">
-                    <Col xs={12} sm={6} md={6} lg={4} className="responsiveStyle">
+                    <Col xs={12} sm={12} md={6} lg={4} className="responsiveStyle">
                     <Card style={cartStyle}>
                         <Card.Img variant="top" src={man4} className="cartimg" />
                         <Card.Body>
@@ -43,7 +43,7 @@ export default class Agent extends Component {
                         </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={12} sm={6} md={6} lg={4} className="responsiveStyle">
+                    <Col xs={12} sm={12} md={6} lg={4} className="responsiveStyle">
                     <Card style={cartStyle}>
                         <Card.Img variant="top" src={man2} className="cartimg"/>
                         <Card.Body>
@@ -56,7 +56,7 @@ export default class Agent extends Component {
                         </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={12} sm={6} md={6} lg={4} className="responsiveStyle">
+                    <Col xs={12} sm={12} md={6} lg={4} className="responsiveStyle">
                     <Card style={cartStyle}>
                         <Card.Img variant="top" src={man3} className="cartimg"/>
                         <Card.Body>

@@ -23,9 +23,9 @@ export default class BayOrSell extends Component {
                           <div style={{background: '#06416552'}}>
 
                              <svg viewBox="0 0 1320 300">
-                            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                            <text-anchor x="50%" y="50%" dy=".35em" text-anchor="middle">
                             Buy or sell your house
-                            </text>
+                            </text-anchor>
                            </svg>	
                          </div><hr/>
 
